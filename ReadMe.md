@@ -1,3 +1,5 @@
+<h3>Clone project via git</h3>
+
 <h3>install venv</h3>
 
 py -m venv venv<br>

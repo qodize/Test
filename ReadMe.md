@@ -58,8 +58,9 @@ curl -X POST
     "name": "some product",
 	"description": "Lorem ipsum dolor sit amet",
 	"params": {
-		"param1": "some parameter",
-		"param2": "other parameter"
+		"some parameter": "lorem ipsum",
+		"other parameter": "ipsum lorem",
+		"and one more parameter": "one more"
 	}
 }' 
 127.0.0.1:8000/api/products/
@@ -76,7 +77,7 @@ curl -X POST
 	"description": "Lorem ipsum dolor sit amet",
 	"params": {
 		"param1": "300 bucks",
-		"param2": "0"
+		"other": "0"
 	}
 }'
 

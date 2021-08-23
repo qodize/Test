@@ -80,6 +80,7 @@ curl -X POST
 		"other": "0"
 	}
 }'
+127.0.0.1:8000/api/products/
 
 curl -X POST
 -H 'Content-Type: application/json'
@@ -92,6 +93,7 @@ curl -X POST
 		"param2": "2"
 	}
 }'
+127.0.0.1:8000/api/products/
 
 <h4> Check if these two products were created </h4>
 

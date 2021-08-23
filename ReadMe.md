@@ -107,7 +107,7 @@ curl -X GET
 -d '{"filter_by": "param1", "value": "300 bucks"}' 
 127.0.0.1:8000/api/products/
 
-This will return you name of the product and its id
+This will return you name of the product and its id<br>
 Output:
 {
 "id": 1,

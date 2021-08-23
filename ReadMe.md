@@ -11,9 +11,9 @@ go to .env and set DBNAME variable<br>
 (by default DBNAME=testing)
 
 <h3>Run migrations</h3>
-cd onlineshop
-py manage.py makemigrations
-py manage.py migrate
+cd onlineshop<br>
+py manage.py makemigrations<br>
+py manage.py migrate<br>
 
 <h3>Run server</h3>
 py manage.py runserver
